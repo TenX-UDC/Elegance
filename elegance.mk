@@ -322,6 +322,35 @@ PRODUCT_PACKAGES += \
     ProgressbarInlineOverlay \
     ProgressbarLightyOverlay
 
+# Brightness slider styles
+PRODUCT_PACKAGES += \
+    BrightnessSliderFilledOverlay \
+    BrightnessSliderThinOverlay \
+    BrightnessSliderAcunOverlay \
+    BrightnessSliderBangOverlay \
+    BrightnessSliderBangOverlay \
+    BrightnessSliderBang2Overlay \
+    BrightnessSliderNeumorphOverlay \
+    BrightnessSliderNeumorph2Overlay \
+    BrightnessSliderRealmeOverlay \
+    BrightnessSliderRealme2Overlay \
+    BrightnessSliderSemyOverlay \
+    BrightnessSliderSwapOverlay \
+    BrightnessSliderSwap2Overlay \
+    BrightnessSliderCyberpunkOverlay \
+    BrightnessSliderGradiantOverlay \
+    BrightnessSliderOutlineOverlay \
+    BrightnessSliderShadedOverlay \
+    BrightnessSliderThinOutlineOverlay \
+    BrightnessSliderTranslucentOverlay \
+    BrightnessSliderLeafyOutlineOverlay \
+    BrightnessSliderMinimalThumbOverlay \
+    BrightnessSliderOldSchoolThumbOverlay \
+    BrightnessSliderRoundedClipOverlay \
+    BrightnessSliderThumbSliderOverlay \
+    BrightnessSliderLineOverlay \
+    BrightnessSliderLightyOverlay
+
 ifeq ($(TARGET_HAS_UDFPS),true)
 PRODUCT_PACKAGES += \
     UdfpsIcons \
