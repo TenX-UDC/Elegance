@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.android.systemui.monet.accurate_shade_systemui"
+        android:versionCode="1"
+        android:versionName="1.0">
+    <overlay android:targetPackage="com.android.systemui"
+        android:category="android.theme.customization.monet.accurate_shade"
+        android:priority="1"/>
+
+    <application android:allowBackup="false" android:label="Accurate shade" android:hasCode="false"/>
+</manifest>

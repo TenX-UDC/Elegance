@@ -15,3 +15,8 @@
 # QS UI Style
 PRODUCT_PACKAGES += \
     A11QSUI
+
+# Accurate shade
+PRODUCT_PACKAGES += \
+    AccurateShadeOverlayAndroid \
+    AccurateShadeOverlaySystemUI
