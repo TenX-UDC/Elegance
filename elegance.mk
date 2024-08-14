@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+LOCAL_PATH := $(call my-dir)
+include $(call all-subdir-makefiles,$(LOCAL_PATH))
+
 # QS UI Style
 PRODUCT_PACKAGES += \
     A11QSUI
@@ -20,3 +23,152 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AccurateShadeOverlayAndroid \
     AccurateShadeOverlaySystemUI
+
+# Fonts
+PRODUCT_PACKAGES += \
+    fonts_customization.xml \
+    ClockFontACFilmstripOverlay \
+    ClockFontAccuratistOverlay \
+    ClockFontAclonicaOverlay \
+    ClockFontAlmonteSnowOverlay \
+    ClockFontAlphaCloudsOverlay \
+    ClockFontAlphaFlowersOverlay \
+    ClockFontAlphaWoodOverlay \
+    ClockFontAmaranteOverlay \
+    ClockFontAmpad3D2Overlay \
+    ClockFontBariolOverlay \
+    ClockFontBetsyFlanaganOverlay \
+    ClockFontBigCheeseOverlay \
+    ClockFontBrandayolqOverlay \
+    ClockFontBudmoJigglerOverlay \
+    ClockFontBunnyRabbitsOverlay \
+    ClockFontCFBadNewsOverlay \
+    ClockFontCFOneTwoTreesOverlay \
+    ClockFontCagliostroOverlay \
+    ClockFontCatOverlay \
+    ClockFontCoconOverlay \
+    ClockFontCoconThinOverlay \
+    ClockFontComfortaaOverlay \
+    ClockFontComicSansOverlay \
+    ClockFontConcentrateOverlay \
+    ClockFontCookieRunOverlay \
+    ClockFontCoolstoryOverlay \
+    ClockFontCrackmanOverlay \
+    ClockFontDiscoMidnightOverlay \
+    ClockFontEasterBunnyOverlay \
+    ClockFontEditPointsFilledOverlay \
+    ClockFontEditPointsOverlay \
+    ClockFontElriott2Overlay \
+    ClockFontExotwoOverlay \
+    ClockFontFibographyOverlay \
+    ClockFontFifa2018Overlay \
+    ClockFontFloorlightOverlay \
+    ClockFontGautsMotelUpperRightOverlay \
+    ClockFontGrandHotelOverlay \
+    ClockFontHangedOverlay \
+    ClockFontHarmonySansOverlay \
+    ClockFontHotSweatOverlay \
+    ClockFontKGOnlyHopeOverlay \
+    ClockFontKaramuruhOverlay \
+    ClockFontKingthingsOverlay \
+    ClockFontLMSCliffordOverlay \
+    ClockFontLatoOverlay \
+    ClockFontLinotteOverlay \
+    ClockFontLittleBunnyOverlay \
+    ClockFontLowerAtmosphereOverlay \
+    ClockFontMessingLetternOverlay \
+    ClockFontMonbijouxClownpieceOverlay \
+    ClockFontNeonDiscoOverlay \
+    ClockFontNinjasOverlay \
+    ClockFontNokiaPureOverlay \
+    ClockFontNothingDotHeadlineOverlay \
+    ClockFontNunitoOverlay \
+    ClockFontOneplusSansOverlay \
+    ClockFontOneplusSlateOverlay \
+    ClockFontOswaldOverlay \
+    ClockFontPinewoodOverlay \
+    ClockFontPlaidEventOverlay \
+    ClockFontPlantsLettersOverlay \
+    ClockFontQuandoOverlay \
+    ClockFontQuickSouthOverlay \
+    ClockFontRedressedOverlay \
+    ClockFontReemKufiOverlay \
+    ClockFontRemponkOverlay \
+    ClockFontRobotoCondensedOverlay \
+    ClockFontRomantiquesOverlay \
+    ClockFontRoundheadsOverlay \
+    ClockFontRubikOverlay \
+    ClockFontSamsungOneOverlay \
+    ClockFontSansSerifOverlay \
+    ClockFontScrapItUpOverlay \
+    ClockFontSonySketchOverlay \
+    ClockFontSpaceGameOverlay \
+    ClockFontStandardHeaderOverlay \
+    ClockFontStoropiaOverlay \
+    ClockFontSurferOverlay \
+    ClockFontTh3machineOverlay \
+    ClockFontUbuntuOverlay \
+    ClockFontVtksdura3dOverlay \
+    ClockFontZnikomitNo24Overlay \
+    ClockFontNewYork-HeavyOverlay \
+    ClockFontNewYork-SemiboldOverlay \
+    ClockFontSFPro-SemiboldOverlay \
+    ClockFontSFPro-SemiboldRailsOverlay \
+    ClockFontSFPro-SemiboldRoundedOverlay \
+    ClockFontSFPro-SemiboldSoftOverlay \
+    ClockFontSFPro-SemiboldStencilOverlay \
+    ClockFontKroppenOutlineOverlay \
+    ClockFontKroppenRoundOverlay \
+    ClockFontVolteRoundedOverlay \
+    ClockFontVolteRoundedBoldOverlay \
+    ClockFontIOSOverlay \
+    ClockFontHerculesOverlay \
+    ClockFontSlimOverlay \
+    FontAccuratistOverlay \
+    FontAclonicaOverlay \
+    FontAmaranteOverlay \
+    FontBariolOverlay \
+    FontCagliostroOverlay \
+    FontCoconOverlay \
+    FontCoconThinOverlay \
+    FontComfortaaOverlay \
+    FontComicSansOverlay \
+    FontCookieRunOverlay \
+    RobotoFallback-VF.ttf \
+    FontCoolstoryOverlay \
+    FontExotwoOverlay \
+    FontEvolveSansOverlay \
+    FontFifa2018Overlay \
+    FontGoogleSansOverlay \
+    FontGrandHotelOverlay \
+    FontHarmonySansOverlay \
+    FontLatoOverlay \
+    FontLinotteOverlay \
+    FontNokiaPureOverlay \
+    FontNothingDotHeadlineOverlay \
+    FontNothingDotOverlay \
+    FontNunitoOverlay \
+    FontOneplusSansOverlay \
+    FontOneplusSlateOverlay \
+    FontOswaldOverlay \
+    FontQuandoOverlay \
+    FontRedressedOverlay \
+    FontReemKufiOverlay \
+    FontRobotoCondensedOverlay \
+    FontRubikOverlay \
+    FontSanFranciscoDisplayProSourceOverlay \
+    FontSamsungOneOverlay \
+    FontSansSerifOverlay \
+    FontSonySketchOverlay \
+    FontStoropiaOverlay \
+    FontSurferOverlay \
+    FontRosemaryOverlay \
+    FontVolteRoundedOverlay \
+    FontUbuntuOverlay
+
+# Include {Lato,Rubik} fonts
+$(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
+$(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/overlays/Elegance/fonts/prebuilt,$(TARGET_COPY_OUT_PRODUCT)/fonts)
