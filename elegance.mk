@@ -22,7 +22,8 @@ PRODUCT_PACKAGES += \
 # Accurate shade
 PRODUCT_PACKAGES += \
     AccurateShadeOverlayAndroid \
-    AccurateShadeOverlaySystemUI
+    AccurateShadeOverlaySystemUI \
+    AccurateShadeOverlaySettings
 
 # Fonts
 PRODUCT_PACKAGES += \
