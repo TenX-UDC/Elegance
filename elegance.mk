@@ -151,6 +151,7 @@ PRODUCT_PACKAGES += \
     FontNunitoOverlay \
     FontOneplusSansOverlay \
     FontOneplusSlateOverlay \
+    FontPoppinsSourceOverlay \
     FontOswaldOverlay \
     FontQuandoOverlay \
     FontRedressedOverlay \
