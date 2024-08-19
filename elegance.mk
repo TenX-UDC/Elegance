@@ -214,6 +214,29 @@ PRODUCT_PACKAGES += \
     LinearWiFiOverlay \
     PlumpyWiFiOverlay \
     LandscapeWiFiOverlay
+    
+# Iconshape
+PRODUCT_PACKAGES += \
+    IconShapeCloudyOverlay \
+    IconShapeCylinderOverlay \
+    IconShapeFlowerOverlay \
+    IconShapeHeartOverlay \
+    IconShapeHexagonOverlay \
+    IconShapeIosOverlay \
+    IconShapeLeafOverlay \
+    IconShapeMeowOverlay \
+    IconShapePebbleOverlay \
+    IconShapeRoundedHexagonOverlay \
+    IconShapeRoundedRectOverlay \
+    IconShapeScrollOverlay \
+    IconShapeStretchedOverlay \
+    IconShapeSquareOverlay \
+    IconShapeSquircleOverlay \
+    IconShapeStretchedOverlay \
+    IconShapeTaperedRectOverlay \
+    IconShapeTeardropOverlay \
+    RiceBallsOverlay \
+    IconShapeVesselOverlay
 
 # Volume Styles
 PRODUCT_PACKAGES += \
