@@ -310,6 +310,18 @@ PRODUCT_PACKAGES += \
     VolumeShadedLayer \
     VolumeAOSPRevamped
 
+# Progressbar styles
+PRODUCT_PACKAGES += \
+    ProgressbarFilledOutlineThumbOverlay \
+    ProgressbarMinimalThumbOverlay \
+    ProgressbarBlockyThumbOverlay \
+    ProgressbarOutlineThumbOverlay \
+    ProgressbarOldschoolThumbOverlay \
+    ProgressbarNoThumbOverlay \
+    ProgressbarThinTrackOverlay \
+    ProgressbarInlineOverlay \
+    ProgressbarLightyOverlay
+
 ifeq ($(TARGET_HAS_UDFPS),true)
 PRODUCT_PACKAGES += \
     UdfpsIcons \
