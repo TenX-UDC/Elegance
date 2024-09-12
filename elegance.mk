@@ -338,18 +338,14 @@ PRODUCT_PACKAGES += \
     BrightnessSliderSwapOverlay \
     BrightnessSliderSwap2Overlay \
     BrightnessSliderCyberpunkOverlay \
-    BrightnessSliderGradiantOverlay \
     BrightnessSliderOutlineOverlay \
-    BrightnessSliderShadedOverlay \
     BrightnessSliderThinOutlineOverlay \
     BrightnessSliderTranslucentOverlay \
     BrightnessSliderLeafyOutlineOverlay \
     BrightnessSliderMinimalThumbOverlay \
     BrightnessSliderOldSchoolThumbOverlay \
     BrightnessSliderRoundedClipOverlay \
-    BrightnessSliderThumbSliderOverlay \
-    BrightnessSliderLineOverlay \
-    BrightnessSliderLightyOverlay
+    BrightnessSliderThumbSliderOverlay
 
 # Navbar styles
 PRODUCT_PACKAGES += \
