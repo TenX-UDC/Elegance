@@ -15,8 +15,10 @@
 					<shape android:shape="rectangle">
 						<corners android:radius="48.0dip" />
 						<size android:height="35.0dip" />
-					<solid 
-android:color="@*android:color/accent_device_default"/>
+            <gradient
+                android:startColor="@*android:color/tenx_shade_start_color"
+                android:endColor="@*android:color/tenx_shade_end_color"
+                android:angle="0" />
 					</shape>
 				</item>
 			</selector>

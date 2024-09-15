@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2024 TenX-OS
+     Copyright (C) 2024 TenX-OS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -23,4 +23,6 @@
     <color name="accent_material_dark">@android:color/system_accent1_500</color>
     <color name="accent_material_light">@android:color/system_accent1_500</color>
     <color name="accent_primary_device_default">@android:color/system_accent1_500</color>
+    <color name="tenx_shade_start_color">@android:color/system_accent1_500</color>
+    <color name="tenx_shade_end_color">@android:color/system_accent3_600</color>
 </resources>

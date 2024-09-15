@@ -15,7 +15,10 @@
         <scale android:scaleWidth="100%">
             <shape>
                 <size android:height="30.0dip" />
-                <solid android:color="?android:colorAccent" />
+                <gradient
+                    android:startColor="@*android:color/tenx_shade_start_color"
+                    android:endColor="@*android:color/tenx_shade_end_color"
+                    android:angle="0" />
                 <corners android:radius="30.0dip" />
             </shape>
         </scale>

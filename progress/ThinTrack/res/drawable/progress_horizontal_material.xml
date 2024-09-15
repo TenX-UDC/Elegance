@@ -48,8 +48,8 @@
                         <size android:height="6dp" />
                         <gradient
                             android:angle="0.0"
-                            android:endColor="?android:attr/colorAccent"
-                            android:startColor="?android:attr/colorAccent" />
+                            android:endColor="@*android:color/tenx_shade_end_color"
+                            android:startColor="@*android:color/tenx_shade_start_color" />
                         <corners android:radius="24dp" />
                     </shape>
                 </item>

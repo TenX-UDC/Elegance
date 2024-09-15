@@ -12,10 +12,13 @@
                             <size android:height="48.0dip" />
                             <stroke android:width="12dp"
                                     android:color="#A5FFFFFF" />
-                            <solid android:color="#ffffffff" />
+                            <gradient
+                                android:startColor="@*android:color/tenx_shade_start_color"
+                                android:endColor="@*android:color/tenx_shade_end_color"
+                                android:angle="0" />
                             <corners android:radius="35.0dip" />
                         </shape>
-                    </inset >
+                    </inset>
                 </item>
                 <item android:state_pressed="false">
                     <inset android:insetLeft="0.0dip"
@@ -25,10 +28,13 @@
                             <size android:height="48.0dip" />
                             <stroke android:width="12dp"
                                     android:color="#A5FFFFFF" />
-                            <solid android:color="#ffffffff" />
+                            <gradient
+                                android:startColor="@*android:color/tenx_shade_start_color"
+                                android:endColor="@*android:color/tenx_shade_end_color"
+                                android:angle="0" />
                             <corners android:radius="35.0dip" />
                         </shape>
-                    </inset >
+                    </inset>
                 </item>
             </selector>
         </scale>

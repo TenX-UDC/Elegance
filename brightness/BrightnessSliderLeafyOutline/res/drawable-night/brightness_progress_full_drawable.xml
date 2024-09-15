@@ -10,7 +10,10 @@
                 android:topLeftRadius="32.0dp"
                 android:topRightRadius="10.0dp" />
             <size android:height="48.0dip" />
-            <solid android:color="?android:colorAccent" />
+            <gradient
+                android:startColor="@*android:color/tenx_shade_start_color"
+                android:endColor="@*android:color/tenx_shade_end_color"
+                android:angle="0" />
         </shape>
     </item>
     <item

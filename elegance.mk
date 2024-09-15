@@ -19,11 +19,11 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 PRODUCT_PACKAGES += \
     A11QSUI
 
-# Accurate shade
+# TenX shade type
 PRODUCT_PACKAGES += \
-    AccurateShadeOverlayAndroid \
-    AccurateShadeOverlaySystemUI \
-    AccurateShadeOverlaySettings
+    TenXShadeTypeAccurate \
+    TenXShadeTypeGradient \
+    TenXShadeTypeAccurateGradient
 
 # Fonts
 PRODUCT_PACKAGES += \

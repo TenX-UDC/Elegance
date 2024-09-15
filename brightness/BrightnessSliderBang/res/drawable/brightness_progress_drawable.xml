@@ -37,7 +37,10 @@
                         <shape android:tint="?android:colorAccent"
                                android:shape="rectangle">
                             <size android:height="35.0dip" />
-                            <solid android:color="#ffffffff" />
+                            <gradient
+                                android:startColor="@*android:color/tenx_shade_start_color"
+                                android:endColor="@*android:color/tenx_shade_end_color"
+                                android:angle="0" />
                             <corners android:bottomLeftRadius="5dp"
                                      android:bottomRightRadius="60dp"
                                      android:topLeftRadius="60dp"
