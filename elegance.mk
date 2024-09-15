@@ -331,12 +331,9 @@ PRODUCT_PACKAGES += \
     BrightnessSliderBangOverlay \
     BrightnessSliderBang2Overlay \
     BrightnessSliderNeumorphOverlay \
-    BrightnessSliderNeumorph2Overlay \
     BrightnessSliderRealmeOverlay \
-    BrightnessSliderRealme2Overlay \
     BrightnessSliderSemyOverlay \
     BrightnessSliderSwapOverlay \
-    BrightnessSliderSwap2Overlay \
     BrightnessSliderCyberpunkOverlay \
     BrightnessSliderOutlineOverlay \
     BrightnessSliderThinOutlineOverlay \
