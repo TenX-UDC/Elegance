@@ -361,6 +361,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SettingsCardsOverlay
 
+# Settings homepage avatar
+PRODUCT_PACKAGES += \
+    SettingsHomepageAvatarOverlay
+
 ifeq ($(TARGET_HAS_UDFPS),true)
 PRODUCT_PACKAGES += \
     UdfpsIcons \
