@@ -170,7 +170,8 @@ PRODUCT_PACKAGES += \
 
 # Themes
 PRODUCT_PACKAGES += \
-    AndroidBlackThemeOverlay
+    AndroidBlackThemeOverlay \
+    AndroidAmoledBlackThemeOverlay
 
 # Statusbar Icons
 PRODUCT_PACKAGES += \
