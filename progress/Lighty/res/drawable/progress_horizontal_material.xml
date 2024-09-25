@@ -44,7 +44,8 @@
                     android:drawable="@*android:color/transparent"
                     android:state_enabled="false" />
                 <item>
-                    <shape android:shape="rectangle">
+                    <shape android:shape="rectangle"
+                           android:tintMode="multiply">
                         <size android:height="6dp" />
                         <gradient
                             android:angle="0.0"

@@ -13,7 +13,7 @@
     </item>
     <item android:id="@android:id/progress" android:gravity="center_vertical|fill_horizontal">
         <scale android:scaleWidth="100%">
-            <shape>
+            <shape android:tintMode="multiply">
                 <size android:height="30.0dip" />
                 <gradient
                     android:startColor="@*android:color/tenx_shade_start_color"

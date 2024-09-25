@@ -3,7 +3,8 @@
     <item
         android:id="@*android:id/background"
         android:gravity="fill_horizontal|center">
-        <shape android:shape="rectangle">
+        <shape android:shape="rectangle"
+               android:tintMode="multiply">
             <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
             <size android:height="32.0dip" />
             <gradient

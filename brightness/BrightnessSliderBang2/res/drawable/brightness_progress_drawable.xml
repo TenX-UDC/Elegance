@@ -3,7 +3,9 @@
 	<item android:gravity="fill_horizontal|center" android:id="@android:id/background">
 		<selector>
 			<item android:state_pressed="true">
-				<shape android:tint="?android:colorAccent" android:shape="rectangle">
+				<shape android:tint="?android:colorAccent"
+                               android:tintMode="multiply"
+                                       android:shape="rectangle">
 					<size android:height="35.0dip" />
 					<solid android:color="#2c626161" />
     
@@ -35,7 +37,7 @@
 				<item android:state_pressed="true">
   <inset android:insetLeft="0.0dip"
        android:insetRight="0.0dip">
-					<shape  
+					<shape android:tintMode="multiply"
            
 android:shape="rectangle">
 						<size android:height="35.0dip" />
@@ -54,7 +56,7 @@ android:shape="rectangle">
 				<item android:state_pressed="false">
 				      <inset android:insetLeft="0.0dip"
        android:insetRight="0.0dip">
-					<shape  android:shape="rectangle">
+					<shape android:tintMode="multiply"  android:shape="rectangle">
 						<size android:height="35.0dip" />
                             <gradient
                                 android:startColor="@*android:color/tenx_shade_start_color"

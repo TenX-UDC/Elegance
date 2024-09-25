@@ -17,7 +17,8 @@
             android:gravity="left">
             <selector>
                 <item>
-                    <shape android:shape="rectangle">
+                    <shape android:shape="rectangle"
+                           android:tintMode="multiply">
                         <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
                         <size android:height="48.0dip" />
                         <gradient

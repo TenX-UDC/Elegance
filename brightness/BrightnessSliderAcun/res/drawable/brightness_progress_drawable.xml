@@ -8,6 +8,7 @@
                     <inset android:insetLeft="0.0dip"
                            android:insetRight="0.0dip">
                         <shape android:tint="?android:colorAccent"
+                               android:tintMode="multiply"
                                android:shape="rectangle">
                             <size android:height="48.0dip" />
                             <stroke android:width="12dp"
@@ -24,6 +25,7 @@
                     <inset android:insetLeft="0.0dip"
                            android:insetRight="0.0dip">
                         <shape android:tint="?android:colorAccent"
+                               android:tintMode="multiply"
                                android:shape="rectangle">
                             <size android:height="48.0dip" />
                             <stroke android:width="12dp"

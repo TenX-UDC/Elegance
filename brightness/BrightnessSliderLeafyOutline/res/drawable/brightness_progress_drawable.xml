@@ -5,7 +5,8 @@
         android:gravity="fill_horizontal|center">
         <layer-list>
             <item android:gravity="fill_horizontal|center">
-                <shape android:shape="rectangle">
+                <shape android:shape="rectangle"
+                       android:tintMode="multiply">
                     <corners
                         android:bottomLeftRadius="10.0dp"
                         android:bottomRightRadius="32.0dp"
@@ -19,7 +20,8 @@
                 android:end="4.5dip"
                 android:gravity="fill_horizontal|center"
                 android:start="4.5dip">
-                <shape android:shape="rectangle">
+                <shape android:shape="rectangle"
+                       android:tintMode="multiply">
                     <corners
                         android:bottomLeftRadius="6.0dp"
                         android:bottomRightRadius="28.0dp"

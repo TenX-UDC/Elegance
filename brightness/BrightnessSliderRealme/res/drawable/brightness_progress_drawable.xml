@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 	<item android:id="@android:id/background" android:gravity="fill_horizontal|center">
-		<shape android:shape="rectangle">
+		<shape android:shape="rectangle"
+                               android:tintMode="multiply">
 			<corners android:radius="48.0dip" />
 			<size android:height="35.0dip" />
 			<solid android:color="?android:attr/colorBackgroundFloating" />
@@ -12,7 +13,8 @@
 			<selector>
 				<item android:state_enabled="false" android:drawable="@android:color/transparent" />
 				<item>
-					<shape android:shape="rectangle">
+					<shape android:shape="rectangle"
+                               android:tintMode="multiply">
 						<corners android:radius="48.0dip" />
 						<size android:height="35.0dip" />
             <gradient

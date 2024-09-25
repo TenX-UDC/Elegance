@@ -4,6 +4,7 @@
 	android:gravity="fill_horizontal|center" 
 	android:id="@android:id/background">
 		<shape 
+                               android:tintMode="multiply"
 		android:shape="rectangle">
 			<size 
 			android:height="40.0dip" />
@@ -23,7 +24,7 @@
 	android:id="@android:id/background">
 <inset android:insetLeft="5.0dip" android:insetRight="5.0dip">
 		<shape 
-		
+		                               android:tintMode="multiply"
 		android:shape="rectangle">
 			<size 
 			android:height="33.0dip" />
@@ -47,6 +48,7 @@
 		android:scaleWidth="94%">
 <inset android:insetLeft="2.0dip" android:insetRight="2.0dip">
 			<shape 
+                               android:tintMode="multiply"
 			android:shape="rectangle">
 				<size 
 				android:height="31.0dip" />
