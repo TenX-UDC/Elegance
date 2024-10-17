@@ -724,6 +724,15 @@
         <font weight="300" style="normal">ScrapItUp.ttf</font>
     </family>
 
+    <!-- SimpleDay -->
+    <family customizationType="new-named-family" name="SimpleDay">
+        <font weight="400" style="normal">SimpleDay.ttf</font>
+    </family>
+    <alias name="SimpleDay-light" to="SimpleDay" weight="300" />
+    <alias name="SimpleDay-medium" to="SimpleDay" weight="500" />
+    <alias name="SimpleDay-semi-bold" to="SimpleDay" weight="600" />
+    <alias name="SimpleDay-bold" to="SimpleDay" weight="700" />
+
     <!-- SlateFromOP -->
     <family customizationType="new-named-family" name="oneplusslate">
         <font weight="300" style="normal">SlateFromOP-Light.ttf</font>

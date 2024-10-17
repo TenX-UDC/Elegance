@@ -131,6 +131,7 @@ PRODUCT_PACKAGES += \
     FontBariolOverlay \
     FontCagliostroOverlay \
     FontCoconOverlay \
+    FontSimpleDayOverlay \
     FontCoconThinOverlay \
     FontComfortaaOverlay \
     FontComicSansOverlay \
